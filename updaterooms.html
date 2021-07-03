@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add rooms</title>
+<style>
+.border1{
+  height: 45px;
+  width: 90.9%;
+  background-color: black;
+  padding: 20px 20px 10px 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.border2{
+  width: 99%;
+  background-color: #2CC185;
+  padding: 65px 20px 10px 20px;
+  position: absolute;
+  top: 75px;
+  right: 0px;
+}
+.heading{
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: white;
+}
+.center
+{
+text-align:center;
+}
+.background{
+  background-color: #f2f2f2;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 470px;
+  border: 1px solid black;
+  padding: 40px 100px;
+}
+.s{
+  position:absolute;
+  width: 100px;
+  height: 40px;
+  padding: 8px 12px;
+  font-family: Georgia;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.s:hover{
+  background-color: white;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="border1 heading"><b>BookingRooms.com</b></div>
+<div class="border2">
+</div>
+<form name="reg1" action="updaterooms" method="get">
+<div class="background">
+<table>
+
+<tr>
+<td><b>Enter the Room no to be updated:</b></td><td><input type="text" name="rno" style="width:250px; height:28px" "/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Enter the new value to be updated:</b></td><td><input type="text" name="new" style="width:250px; height:28px" "/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td></td><td><button class="s">Submit</button></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

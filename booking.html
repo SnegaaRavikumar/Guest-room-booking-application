@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.heading{
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.center1
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+.s{
+  position:absolute;
+  width: 100px;
+  height: 40px;
+  padding: 8px 10px;
+  font-family: Georgia;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.s:hover{
+  background-color: white;
+  color: black;
+}
+</style>
+</head>
+<body background="backimg.jpg" style="opacity:0.8">
+<div class=heading><b>BookingRooms.com</b></div>
+<form name="reg1" action="booking" method="get">
+<table class="center1"style="background-color:white">
+<tr>
+<td><b>Room no:</b></td><td><input type="text" name="rno" style="width:250px; height:28px" /></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Full name:</b></td><td><input type="text" name="fname" style="width:250px; height:28px" /></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Address:</b></td><td><textarea  name="address" rows=8 style="width:250px"></textarea></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Phone number:</b></td><td><input type="text" name="phone" style="width:250px; height:28px" /></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Email address:</b></td><td><input type="text" name="email" style="width:250px; height:28px"/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Adhar no:</b></td><td><input type="text" name="adhar" style="width:250px; height:28px"/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Arrival Date</td>
+ 
+<td>
+<select name="arrival_day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+ 
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+ 
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+ 
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+ 
+<option value="31">31</option>
+</select>
+ 
+<select  name="arrival_month">
+<option value="-1">Month:</option>
+<option value="January">Jan</option>
+<option value="February">Feb</option>
+<option value="March">Mar</option>
+<option value="April">Apr</option>
+<option value="May">May</option>
+<option value="June">Jun</option>
+<option value="July">Jul</option>
+<option value="August">Aug</option>
+<option value="September">Sep</option>
+<option value="October">Oct</option>
+<option value="November">Nov</option>
+<option value="December">Dec</option>
+</select>
+ 
+<select name="arrival_year">
+ 
+<option value="-1">Year:</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+</select>
+</td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Departure Date</td>
+ 
+<td>
+<select name="dept_day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+ 
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+ 
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+ 
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+ 
+<option value="31">31</option>
+</select>
+ 
+<select  name="dept_month">
+<option value="-1">Month:</option>
+<option value="January">Jan</option>
+<option value="February">Feb</option>
+<option value="March">Mar</option>
+<option value="April">Apr</option>
+<option value="May">May</option>
+<option value="June">Jun</option>
+<option value="July">Jul</option>
+<option value="August">Aug</option>
+<option value="September">Sep</option>
+<option value="October">Oct</option>
+<option value="November">Nov</option>
+<option value="December">Dec</option>
+</select>
+ 
+<select name="dept_year">
+ 
+<option value="-1">Year:</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+</select>
+</td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Number of persons staying:</b></td><td><input type="text" name="persons" style="width:250px; height:28px"/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td><b>Number of nights staying:</b></td><td><input type="text" name="nights" style="width:250px; height:28px"/></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+<tr>
+<td></td><td><button  class="s" value="Submit">Submit</button></td>
+</tr><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>
+</table>
+
+</form></body>
+</html>
