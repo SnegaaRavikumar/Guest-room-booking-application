@@ -6,8 +6,8 @@ Features :
 	- Easy to use.
 	
 	- The users can book the rooms with all facilities like workstation,AC etc...
-
-        - This application allows the admin to add/delete/update rooms.
+	
+	- This application allows the admin to add/delete/update rooms.
 
 ## Requirements 
 
@@ -37,17 +37,15 @@ Software Requirements :
 
 These are the main goals of this module 
 
-        - Admin can create the new account using name,email address,phone number and password.
-
-        - Admin can again login using email address and password.
-
-        - Admin can see the registered user details by giving the specific room no.
-
-        - Admin can add the new room by giving the features of the room.
-
-        - Admin can delete the specific room by using room no.
- 
-        - Admin can update the specific field of the existing room by using new value.
+        - Admin can create the new account using name,email address,phone number and password. 
+	
+	- Admin can again login using email address and password. 
+	
+	- Admin can see the registered user details by giving the specific room no.
+	
+	- Admin can add the new room by giving the features of the room.- Admin can delete the specific room by using room no.
+	
+	- Admin can update the specific field of the existing room by using new value.
 
 These are the scripting languages and environment used in this module 
 
@@ -63,17 +61,13 @@ These are the scripting languages and environment used in this module
 
 These are the main goals of this module 
 
-	- User can create the new account using their name,email,password,phone number.
-
-        - They can login using email address and password.
-
-        - Next, the list of rooms are shown
-
-        - He/She can book the room by providing necessary details.
-
-        - If the user entered the dates which are already booked by some other users, the alert message will be displayed with the previously booked dates.
-         
-        - If the user entered the dates more than the maximum_stay he/She will receive the alert message.
+	- User can create the new account using their name,email,password,phone number. 
+	
+	- They can login using email address and password. - Next, the list of rooms are shown- He/She can book the room by providing necessary details.
+	
+	- If the user entered the dates which are already booked by some other users, the alert message will be displayed with the previously booked dates.
+	
+	- If the user entered the dates more than the maximum_stay he/She will receive the alert message.
 
 These are the scripting languages and environment used in this module 
 
