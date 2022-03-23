@@ -37,13 +37,15 @@ Software Requirements :
 
 These are the main goals of this module 
 
-        - Admin can again login using email address and password. 
+- Admin can again login using email address and password. 
 	
 	- Admin can create the new account using name,email address,phone number and password. 
 	
 	- Admin can see the registered user details by giving the specific room no.
 	
-	- Admin can add the new room by giving the features of the room.- Admin can delete the specific room by using room no.
+	- Admin can add the new room by giving the features of the room.
+	
+	- Admin can delete the specific room by using room no.
 	
 	- Admin can update the specific field of the existing room by using new value.
 
