@@ -88,7 +88,7 @@ This application is written in JAVA.
 
    - [Java](https://github.com/TheAlgorithms/Java )
    
-   - [MYSQL](https://github.com/mysql )
+   - [MYSQL](https://github.com/mysql
 
 
 
